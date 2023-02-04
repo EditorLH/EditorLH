@@ -1,0 +1,547 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #8f8f8f
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+.colored-section {
+  background-color: #fde4cf;
+  color: #8f8f8f;
+}
+
+
+
+.white-section {
+  background-color: white;
+  margin-bottom: auto;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8f8f8f;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #8f8f8f;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 20%;
+  position: absolute;
+  margin-left: 15%;
+  margin-bottom: -15%;
+}
+
+
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Title Image on MOBILE */
+@media (max-width: 1284px) and (min-width: 992px) {
+  .title-image {
+    padding-top: 3%;
+  }
+
+}
+
+@media (max-width: 1284px) and (min-width: 992px) {
+  .services-image {
+    padding-top: 3%;
+  }
+
+}
+
+@media (max-width: 1284px) and (min-width: 992px) {
+  .faq-answers{
+    margin: 150px auto 150px auto;
+    width: auto;
+  }
+
+  .plagiarism-text{
+    margin: 150px auto 150px auto;
+    width: auto;
+  }
+
+  .about-text
+  {
+    margin: 150px auto 150px auto;
+    width: auto;
+  }
+}
+
+@media (min-width: 1285px) {
+  .faq-answers{
+    margin: 150px auto 150px auto;
+    width: 1000px;
+  }
+
+  .plagiarism-text{
+    margin: 150px auto 150px auto;
+    width: 1000px;
+  }
+
+  .about-text
+  {
+    margin: 150px auto 150px auto;
+    width: 1000px;
+  }
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  #services{
+    text-align: center;
+  }
+
+  .title-image {
+    width: 60%;
+    margin-bottom: 5%;
+    position: static;
+    transform: rotate(0);
+    margin-left: 0;
+  }
+
+  .services-image {
+    width: 60%;
+    margin-bottom: 5%;
+    position: static;
+    transform: rotate(0);
+    margin-left: 0;
+  }
+
+  .faq-answers{
+    margin: 150px auto 150px auto;
+    width: auto;
+  }
+
+  .plagiarism-text{
+    margin: 150px auto 150px auto;
+    width: auto;
+  }
+
+  .about-text
+  {
+    margin: 150px auto 150px auto;
+    width: auto;
+  }
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Body Image */
+.icon {
+  color: #fde4cf;
+  padding-bottom: 15px;
+}
+
+/* Features Section */
+.icon:hover {
+  color: #ffcfd2;
+}
+
+.feature-title {
+  font-size: 1.5rem
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #fde4cf;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-h3 {
+  font-size: 1.5rem;
+}
+
+/* CTA Section */
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+#footer{
+  background-color: #fde4cf;
+}
+
+
+/* SERVICES PAGE */
+
+.services-image {
+  width: 60%;
+  margin-bottom: 5%;
+  position: static;
+  float: right;
+}
+
+.book-image{
+  transform: rotate(-20deg);
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+}
+
+.incl-image{
+  transform: rotate(-20deg);
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+}
+
+.add-image{
+  transform: rotate(-20deg);
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+}
+
+/* .services-section{
+  text-align: center;
+} */
+
+.services-h1{
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+#services{
+  padding-top: 30px;
+}
+
+.sub-title
+{
+text-decoration: underline;
+}
+
+.emphasized{
+  font-style: italic;
+}
+
+.hr1
+{
+color: DarkGrey;
+border-style: none;
+border-top-style: dotted;
+border-width: 20px;
+width: 50%;
+margin-top: 100px;
+}
+
+.hr2
+{
+color: DarkGrey;
+border-style: none;
+border-top-style: dotted;
+border-width: 15px;
+width: 30%;
+margin-left: 35%;
+margin-top: 100px;
+}
+
+.alert-image{
+  height: 130px;
+  width: 130px;
+  margin-top: 50px;
+}
+
+
+/* TARIFF PAGE */
+
+.redirect-services{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: DarkGrey;
+}
+
+.redirect{
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.alert-image-tariff{
+  height: 130px;
+  width: 130px;
+  margin-top: -30px;
+  margin-bottom: 10px;
+}
+
+
+.top {
+  text-decoration: none;
+  padding: 15px;
+  font-family: 'Dancing Script';
+  font-size: 35px;
+  color: black;
+  background: #fde4cf;
+  border-radius: 150px;
+}
+
+
+/* CONTACT SECTION */
+
+.reminder{
+  padding-top: 50px;
+}
+
+.contact-section{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.contact-img{
+  transform: rotate(-20deg);
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+}
+
+.contact-text{
+  padding-top: 30px;
+}
+
+
+/* HOW IT WORKS SECTION */
+
+.steps-img{
+  transform: rotate(-20deg);
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+}
+
+.steps-text{
+  padding-top: 30px;
+}
+
+
+/* IMPORTANT INFORMATION SECTION */
+
+.note-img{
+  transform: rotate(-20deg);
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+}
+
+.II{
+  padding-top: 30px;
+  text-align: left;
+}
+
+.II-styling{
+  padding: 7%, 15%;
+}
+
+
+/* CONFIDENTIALITY SECTION */
+
+.lock-img{
+  transform: rotate(-20deg);
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+}
+
+.conf-text{
+  padding-top: 30px;
+}
+
+.fa-arrow-right{
+  width: 500px;
+  height: 500px;
+}
+
+
+/* EDITORIAL CERTIFICATE SECTION */
+
+.cert-class{
+  padding: 50px;
+}
+
+
+/* FAQ SECTION */
+
+.h6-custom{
+/* font-family: 'Dancing Script'; */
+font-style: normal;
+font-size: 20px;
+padding-top: 30px;
+}
+
+
+/* PLAGIARISM SECTION */
+
+
+.plagiarism-text{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.warning-image{
+  margin-top: -100px;
+  height: 130px;
+  width: 120px;
+}
+
+.website-text{
+  padding-top: 30px;
+}
+
+
+/* ABOUT SECTION */
+
+
+.LieslHager-img{
+  width: 300px;
+  height: 300px;
+}
+
+.about-editor{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.interview-text{
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-size: 40px;
+}
+
+.fwil{
+  padding-top: 80px;
+}
+
+.fwil-img{
+  width: 45%;
+  float: right;
+}
+
+.fwil-text{
+  text-align: left;
+}
+
+.fwil-text-2{
+  text-align: right;
+}
+
+.Liesl-links{
+  padding-top: 130px;
+  line-height: 10px;
+}
+
+.Liesl-links-heading{
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-size: 35px;
+  text-align: left;
+}
+
+.links-sub{
+  padding-top: 15px;
+  text-align: left;
+}
+
+.academia-img{
+  width: 120px;
+  height: 60px;
+  float: left;
+}
+
+.researchgate-img{
+  width: 120px;
+  height: 60px;
+  float: left;
+  margin-top: 40px;
+  margin-left: -120px;
+}
